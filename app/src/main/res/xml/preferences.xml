@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Settings">
+
+        <Preference
+            android:title="BugSmash"
+            android:summary="Copyright 2019"
+            android:selectable="false"/>
+        <Preference
+            android:title="High Score"
+            android:key="keyHighScore"
+            android:summary="0"
+            android:selectable="false"
+            android:enabled="true" />
+        <Preference
+            android:title="Company Info"
+            android:summary="About us.."
+            android:key="key_company_info"/>
+        <android.support.v7.preference.SwitchPreferenceCompat
+            android:title="Play Background Music"
+            android:key="key_music_enabled"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

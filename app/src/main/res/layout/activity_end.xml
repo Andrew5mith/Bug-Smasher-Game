@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitXY"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.examples.bugsmasher.TitleActivity">
+
+    <ImageView
+        android:id="@+id/endScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/endscreen" />
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="224dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="98dp"
+        android:text="Replay" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="224dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="17dp"
+        android:text="Home" />
+
+</RelativeLayout>
